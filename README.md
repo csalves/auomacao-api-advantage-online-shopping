@@ -32,7 +32,7 @@ Todas as dependências (Cucumber, RestAssured, Hamcrest, JUnit) estão configura
 Estrutura dos Testes
 
 Cucumber Features:
-Localizadas em src/test/resources/features.
+Localizadas na pasta features
 Contêm os arquivos .feature com cenários de teste da API:
 
 Pesquisar-Produto.feature → pesquisa de produtos
@@ -57,7 +57,8 @@ Execução dos Testes
 Rodar todos os cenários: mvn test
 
 Rodar um cenário específico:
-Exemplo: mvn test -Dcucumber.options="--name 'POST /api/v1/product/image/467625264/45/BLACK/?product_id=15 - atualizar imagem de produto'"
+Exemplo:
+mvn test -Dcucumber.options="--name 'POST /api/v1/product/image/467625264/45/BLACK/?product_id=15 - atualizar imagem de produto'"
 
 Ou poderão ser executados por alguma IDE de sua preferência:
 IntelliJ IDEA, Visual Studio Code ou outros
