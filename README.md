@@ -48,9 +48,9 @@ Localizadas na pasta features
 
 Contêm os arquivos .feature com cenários de teste da API:
 
-Pesquisar-Produto.feature - pesquisa de produtos
+**Pesquisar-Produto.feature** - pesquisa de produtos
 
-Atualizar-Produto.feature - atualização de imagem de produto
+**Atualizar-Produto.feature** - atualização de imagem de produto
 
 ### Steps Definitions:
 
@@ -58,16 +58,17 @@ Localizadas em src/test/java/advancedonlineapi/ProductSteps.java
 
 Contêm a implementação dos steps do Cucumber, incluindo:
 
-Login e captura de token JWT
+- Login e captura de token JWT
 
-Requisições GET e POST com RestAssured
+- Requisições GET e POST com RestAssured
 
-Validação de status code e conteúdo do JSON
+- Validação de status code e conteúdo do JSON
 
-Criação de log de execução em .txt, durante a execução, cada step registra informações de request e response nesse arquivo
+- Criação de log de execução em .txt, durante a execução, cada step registra informações de request e response nesse arquivo
 (arquivo gerado em target/logs/api-report-DDMMAAAA_HHMMSS.txt)
 
 ## Imagens e Recursos:
+
 Localizadas em src/test/resources/images/
 
 Exemplo: Beats Studio_IMG.jpg usado para atualizar imagem do produto
@@ -78,12 +79,14 @@ Rodar todos os cenários:
 ```sh
 mvn test
 ```
+
 Rodar um cenário específico:
 
 Exemplo:
 ```sh
 mvn test -Dcucumber.options="--name 'POST /api/v1/product/image/467625264/45/BLACK/?product_id=15 - atualizar imagem de produto'"
 ```
+
 Ou poderão ser executados por alguma IDE de sua preferência:
 
 IntelliJ IDEA, Visual Studio Code ou outros
