@@ -25,15 +25,18 @@ mvn -version
 ```
 
 ### 1. Clone do repositório:
+```sh
+git clone https://github.com/seu-usuario/Advantage-Online-API.git
+```
 
-       git clone https://github.com/seu-usuario/Advantage-Online-API.git
-
+```sh
 cd Advantage-Online-API
+```
 
 ### 2. Instale as dependências do Maven:
-       ```sh
-       mvn clean install
-       ```
+```sh
+mvn clean install
+```
        Todas as dependências (Cucumber, RestAssured, Hamcrest, JUnit) estão configuradas no pom.xml.
 
 ## Estrutura dos Testes
