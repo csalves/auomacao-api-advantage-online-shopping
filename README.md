@@ -52,9 +52,7 @@ Localizadas na pasta features, contêm os arquivos .feature com cenários de tes
 
 ### Steps Definitions:
 
-Localizadas em src/test/java/advancedonlineapi/ProductSteps.java
-
-Contêm a implementação dos steps do Cucumber, incluindo:
+Localizadas em src/test/java/advancedonlineapi/ProductSteps.java, contêm a implementação dos steps do Cucumber, incluindo:
 
 - Login e captura de token JWT
 
