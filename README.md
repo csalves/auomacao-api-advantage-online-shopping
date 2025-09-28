@@ -37,7 +37,8 @@ cd Advantage-Online-API
 ```sh
 mvn clean install
 ```
-       Todas as dependências (Cucumber, RestAssured, Hamcrest, JUnit) estão configuradas no pom.xml.
+
+Todas as dependências (Cucumber, RestAssured, Hamcrest, JUnit) estão configuradas no pom.xml.
 
 ## Estrutura dos Testes
 
