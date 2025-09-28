@@ -17,9 +17,9 @@ Além disso, cada execução gera logs em arquivo TXT, permitindo acompanhar cad
 - **Maven**
 
 Para verificar a instalação e suas versões, abra o terminal (Prompt de Comando, PowerShell ou Terminal do Linux/macOS) e digite os comandos abaixo:
-
+```sh
 java -version
-
+```
 mvn -version
 
 ### 1-Clone do repositório:
@@ -42,9 +42,9 @@ Localizadas na pasta features
 
 Contêm os arquivos .feature com cenários de teste da API:
 
-Pesquisar-Produto.feature → pesquisa de produtos
+Pesquisar-Produto.feature - pesquisa de produtos
 
-Atualizar-Produto.feature → atualização de imagem de produto
+Atualizar-Produto.feature - atualização de imagem de produto
 
 ### Steps Definitions:
 
