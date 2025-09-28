@@ -44,9 +44,7 @@ Todas as dependências (Cucumber, RestAssured, Hamcrest, JUnit) estão configura
 
 ### Cucumber Features:
 
-Localizadas na pasta features
-
-Contêm os arquivos .feature com cenários de teste da API:
+Localizadas na pasta features, contêm os arquivos .feature com cenários de teste da API:
 
 **Pesquisar-Produto.feature** - pesquisa de produtos
 
